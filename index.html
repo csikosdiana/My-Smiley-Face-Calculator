@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>My smiley face calculator</title>
+		
+		<link rel = "stylesheet" href = "css/bootstrap.min.css">
+		<link rel = "stylesheet" href = "css/mystyle.css">
+		
+		
+	</head>
+	
+	<body>
+	
+		
+		<div class = "container">
+			<h1>Smiley face calculator</h1>
+			</br>
+		<div class = "row">
+
+			<div class = "col-md-4 imageback mymargin">
+				<img id = "face" src = "images/asking_face_1.jpg" alt = "Asking face">
+			</div>
+			
+			<div class = "col-md-4 leftered">
+				<h3>To change the smiley face answer the question:</h3>
+				<h3>How much?</h3>
+				<h4 id = "numbers"></h4>
+				<input type = "text" id = "result" value = "">
+				<button onclick="checkfunc()">Check</button>
+				</br>
+				</br>
+				<button onclick="clearfunc()">New question</button>
+				</br>
+				</br>
+				<p id = "Message" class = "mymessage"></p>
+			</div>
+			
+		</div>
+		</div>
+		
+		
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+		<script src="js/bootstrap.min.js"></script>
+		<script src = "js/myfunctions.js"></script>
+	
+	</body>
+</html>

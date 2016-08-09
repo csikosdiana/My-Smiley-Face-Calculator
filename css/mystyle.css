@@ -1,0 +1,31 @@
+img{
+	width: 250px;
+}
+
+.mymessage{
+	font-family: Arial;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.container{
+	background: #99ff99;
+	text-align: center;
+}
+
+.imageback{
+	background: #FFFFFF;
+	border: solid green;
+	text-align: center;
+}
+
+@media (min-width: 992px){
+	.mymargin{
+		margin-left: 18%;
+	}
+}
+
+.leftered{
+	text-align: left;
+	margin-left: 2%;
+}
